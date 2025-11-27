@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "tipos-fundamentales": "tsx src/tipos_basicos/tipos.basicos.ts",
+    "tipos-union": "tsx src/tipos_basicos/union.types.ts",
+    "interfaz-basica": "tsx src/tipos_basicos/interface.product.ts",
+    "funciones-con-tipado": "tsx src/funciones_con_tipado/update.stock.ts",
+    "tipos-literales-enums": "tsx src/tipos_literales_y_enums/literales.enums.ts",
     "dev": "tsx watch src/app.ts",
     "build": "tsc",
     "start": "node dist/app.js"
